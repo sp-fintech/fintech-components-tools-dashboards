@@ -1,0 +1,40 @@
+{
+	"name" : "Dashboards",
+	"route" : "dashboards",
+	"description" : "<p>Fintech dashboards</p>",
+	"module_type" : "components",
+	"app_type" : "fintech",
+	"category" : "tools",
+	"version" : "0.0.0",
+	"repo" : "https://github.com/sp-fintech/fintech-components-tools-dashboards",
+	"class" : "Apps\\Fintech\\Components\\Dashboards\\DashboardsComponent",
+	"dependencies" : 
+	{
+		"core" : 
+		{
+			"name" : "Core",
+			"version" : "0.0.0-rc.7",
+			"repo" : "https://github.com/sp-framework/core"
+		},
+		"components" : [],
+		"packages" : [],
+		"middlewares" : [],
+		"views" : [],
+		"external" : []
+	},
+	"menu" : 
+	{
+		"seq" : 1,
+		"dashboards" : 
+		{
+			"title" : "dashboards",
+			"icon" : "dashboard",
+			"link" : "dashboards"
+		}
+	},
+	"settings" : 
+	{
+		"maxWidgetsPerDashboard" : 10
+	},
+	"widgets" : []
+}
