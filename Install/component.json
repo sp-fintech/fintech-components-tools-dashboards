@@ -1,5 +1,5 @@
 {
-	"name" : "Dashboards",
+	"name" : "Dashboards Fintech",
 	"route" : "dashboards",
 	"description" : "<p>Fintech dashboards</p>",
 	"module_type" : "components",
@@ -22,16 +22,7 @@
 		"views" : [],
 		"external" : []
 	},
-	"menu" : 
-	{
-		"seq" : 1,
-		"dashboards" : 
-		{
-			"title" : "dashboards",
-			"icon" : "dashboard",
-			"link" : "dashboards"
-		}
-	},
+	"menu" : "false",
 	"settings" : 
 	{
 		"maxWidgetsPerDashboard" : 10
