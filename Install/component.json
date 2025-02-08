@@ -5,7 +5,7 @@
 	"module_type" : "components",
 	"app_type" : "fintech",
 	"category" : "tools",
-	"version" : "0.0.0",
+	"version" : "0.1.0",
 	"repo" : "https://github.com/sp-fintech/fintech-components-tools-dashboards",
 	"class" : "Apps\\Fintech\\Components\\Dashboards\\DashboardsComponent",
 	"dependencies" : 
@@ -22,7 +22,14 @@
 		"views" : [],
 		"external" : []
 	},
-	"menu" : "false",
+	"menu"             : {
+		"seq"           : 1,
+		"dashboards"          : {
+			"title"     : "dashboards",
+			"icon"      : "dashboard",
+			"link"      : "dashboards"
+		}
+	},
 	"settings" : 
 	{
 		"maxWidgetsPerDashboard" : 10
