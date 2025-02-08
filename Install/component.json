@@ -22,7 +22,14 @@
 		"views" : [],
 		"external" : []
 	},
-	"menu" : "false",
+	"menu"             : {
+		"seq"           : 1,
+		"dashboards"          : {
+			"title"     : "dashboards",
+			"icon"      : "dashboard",
+			"link"      : "dashboards"
+		}
+	},
 	"settings" : 
 	{
 		"maxWidgetsPerDashboard" : 10
