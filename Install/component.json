@@ -19,7 +19,20 @@
 		"components" : [],
 		"packages" : [],
 		"middlewares" : [],
-		"views" : [],
+		"views" : 
+		[
+			{
+				"name" : "Default",
+				"version" : "0.1.0",
+				"repo" : "https://github.com/sp-fintech/fintech-views-tools-default"
+			},
+			
+			{
+				"name" : "Dashboards",
+				"version" : "0.1.0",
+				"repo" : "https://github.com/sp-fintech/fintech-views-tools-default-dashboards"
+			}
+		],
 		"external" : []
 	},
 	"menu" : 
@@ -30,7 +43,7 @@
 			"title" : "dashboards",
 			"icon" : "dashboard",
 			"link" : "dashboards"
-		}
+		},
 	},
 	"settings" : 
 	{
