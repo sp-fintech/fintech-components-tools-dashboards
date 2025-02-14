@@ -22,18 +22,18 @@
 		"views" : 
 		[
 			{
-				"name" : "Default",
-				"version" : "0.1.0",
-				"repo" : "https://github.com/sp-fintech/fintech-views-tools-default"
-			},
-			
-			{
 				"name" : "Dashboards",
 				"version" : "0.1.0",
 				"repo" : "https://github.com/sp-fintech/fintech-views-tools-default-dashboards"
 			}
 		],
-		"external" : []
+		"external" : [],
+		"apptype" : 
+		{
+			"name" : "Fintech",
+			"version" : "0.3.0",
+			"repo" : "https://github.com/sp-fintech/fintech"
+		}
 	},
 	"menu" : 
 	{
