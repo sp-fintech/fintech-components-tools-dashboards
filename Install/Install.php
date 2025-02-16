@@ -45,8 +45,12 @@ class Install extends BasePackage
         return true;
     }
 
-    public function uninstall()
+    public function uninstall($remove = false)
     {
+        if ($remove) {
+            $this->menuInstaller->uninstallMenu($this);
+        }
+
         return true;
     }
 }
