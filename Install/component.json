@@ -5,7 +5,7 @@
 	"module_type" : "components",
 	"app_type" : "fintech",
 	"category" : "tools",
-	"version" : "0.7.0",
+	"version" : "0.8.0",
 	"repo" : "https://github.com/sp-fintech/fintech-components-tools-dashboards",
 	"class" : "Apps\\Fintech\\Components\\Dashboards\\DashboardsComponent",
 	"dependencies" : 
