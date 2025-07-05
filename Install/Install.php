@@ -23,9 +23,10 @@ class Install extends BasePackage
         if (count($dashboards) === 0) {
             $this->basepackages->dashboards->addDashboard(
                 [
-                    "name"      => "Fintech Default",
-                    "app_type"  => "fintech",
-                    "settings"  => [
+                    "name"          => "Fintech Default",
+                    "app_type"      => "fintech",
+                    "app_default"   => 1,
+                    "settings"      => [
                         "maxWidgetsPerDashboard"    => 10,
                         "id"                        => 2
                     ]
